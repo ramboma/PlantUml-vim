@@ -16,7 +16,7 @@ function! NextNonBlankLine(lnum)
     return -2
 endfunction
 function! GetPotionFold(lnum)
-    if getline(a:lnum)=~?'\v^\s*$'
+    if getline(a:lnum)=~? '\v^\s*$'
         return '-1'
     endif
     let this_indent=IndentLevel(a:lnum)
