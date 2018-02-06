@@ -1,5 +1,8 @@
+if !exists("g:plant_command_jarpath")
+    let g:plant_command_jarpath="e:\\baidupan\\tongbu\\mywork\\graphviz\\plantuml.jar "
+endif
 if !exists("g:plant_command")
-    let g:plant_command="java -jar plantuml.jar -charset utf-8 "
+    let g:plant_command="java -jar ".g:plant_command_jarpath." -charset utf-8 "
 endif
 function! PlantumlCompileAndRunFile()
     silent !clear
