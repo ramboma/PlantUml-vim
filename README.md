@@ -5,4 +5,5 @@
 /_/   /_/\__,_/_/ /_/\__/\____/_/ /_/ /_/_/      |___/_/_/ /_/ /_/
 
 $ git clone https://github.com/ramboma/PlantUml-vim.git ~/.vim/bundle/PlantUml-vim
-
+or
+Plugin 'ramboma/PlantUml-vim'  "in your vimrc
